@@ -1,3 +1,9 @@
+.body {
+    margin: 0;
+    padding: 0;
+}
+
+
 .page-header {
     background-color: #63cf8e;
     margin-top: 0;
@@ -13,7 +19,7 @@
 }
 
 .content {
-    margin-left: 40px;
+    margin-left: 50px;
 }
 
 h1, h2, h3, h4 {
@@ -48,4 +54,10 @@ h1, h2, h3, h4 {
 
 .post h2 a, .post h2 a:visited {
     color: #000000;
+}
+
+.actions {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
 }
